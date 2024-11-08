@@ -1,0 +1,19 @@
+FROM: nginx
+
+WORKDIR: Application
+
+COPY: . . 
+
+RUN: npm install 
+
+CMD: ["npm","start']
+
+
+
+
+
+
+
+...........................................................................
+
+docker build -t nginx . 
